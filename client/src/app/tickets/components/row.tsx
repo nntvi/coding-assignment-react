@@ -34,7 +34,6 @@ export default function TicketRow({
   pending,
   onOpenAssign,
 }: Props) {
-  console.log("🚀 ~ TicketRow ~ ticket:", ticket);
   const isCompleted = ticket.completed;
 
   return (
